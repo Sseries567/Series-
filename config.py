@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("7660400157:AAGOLlb2TDrp2nsEms7xHa1VBQJ72jrOgxY")
-MONGO_URI = os.getenv("mongodb+srv://sseries:sseries@sseries.tqmstei.mongodb.net/?retryWrites=true&w=majority")
-ADMIN_IDS = [int(id) for id in os.getenv("6687248633", "").split(",") if id]
-DATABASE_CHANNEL = os.getenv("-1001790682728")
-BOT_USERNAME = os.getenv("@Sseriesareamoviesearch_bot")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+MONGO_URI = os.getenv("MONGO_URI")
+ADMIN_IDS = [int(id) for id in os.getenv("ADMIN_IDS", "").split(",") if id]
+DATABASE_CHANNEL = os.getenv("DATABASE_CHANNEL")
+BOT_USERNAME = os.getenv("BOT_USERNAME")
 
 # Default settings
 DEFAULT_NRF_IMAGE = "https://envs.sh/ij_.jpg/HGBOTZ.jpg"

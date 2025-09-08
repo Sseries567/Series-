@@ -1,0 +1,6 @@
+python-telegram-bot==20.7
+pymongo==4.6.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.21.1
+requests==2.31.0
+python-dotenv==1.0.0
